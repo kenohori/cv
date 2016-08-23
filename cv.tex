@@ -13,23 +13,6 @@
 \setsansfont{Metric-Light}[Ligatures=TeX,ItalicFont=Metric-LightItalic,BoldFont=Metric-Medium,BoldItalicFont=Metric-MediumItalic]
 \setmonofont[BoldFont=GTPressuraMono-Bold,ItalicFont=GTPressuraMono-LightItalic]{GTPressuraMono-Light}
 
-%-- categories for the references, use 'bibsplitter.py' to obtain them
-% \newcites{article,phdthesis,book,incollection,inproceedings,others}{{Journal articles},{PhD thesis},{Books},{Book chapters},{Conference proceedings},{Others}}
-
-%-- thin line for subsections, nicer in publication list
-% \makeatletter
-% \newlength{\hintscolumnthickness}
-% \setlength{\hintscolumnthickness}{1pt}
-% \RenewDocumentCommand{\subsection}{sm}{%
-%   \par\addvspace{2.5ex}%
-%   \phantomsection{}% reset the anchor for hyperrefs
-%   \addcontentsline{toc}{section}{#2}%
-%   \parbox[t]{\hintscolumnwidth}{\strut\raggedleft\raisebox{\baseletterheight}{\color{color1}\rule{\hintscolumnwidth}{\hintscolumnthickness}}}%
-%   \hspace{\separatorcolumnwidth}%
-%   \parbox[t]{\maincolumnwidth}{\strut\sectionstyle{#2}}%
-%   \par\nobreak\addvspace{1ex}\@afterheading}
-% \makeatother
-
 % adjust the page margins
 \usepackage[scale=0.8]{geometry}
 
@@ -45,12 +28,14 @@
 
 \section{Research interests}
 
-\cvline{}{Much of my current research is about higher-dimensional (4D and higher) data models, data structures and algorithms for Geographic Information Systems.
-I am also interested in other topics that combine geometric/topological computing and real-world spatial information, such as the validation and repair of geographic data, point clouds and surface reconstruction, topological data structures, and visualising spatial data.
-I like theoretical work, but I strongly believe in implementing my ideas in actual working (free) software.}
+\cvline{}{Much of my current research is about higher-dimensional (4D and higher) data models, data structures and algorithms for Geographic Information Systems, using these dimensions to model not only space, but also other characteristics such as time and scale. I am also interested in other topics that combine geometric/topological computing and spatial information, such as geometric modelling, the validation and repair of geographic data, topological data structures, and visualising spatial data. I like theoretical work, but what I enjoy most is implementing my ideas into working prototypes and, when they are serious enough, into free software.}
+
+\section{Work}
+\cventry{2016--now}{Postdoc researcher}{Delft University of Technology}{the Netherlands}{}{}
+\cventry{2011--2015}{PhD researcher}{Delft University of Technology}{the Netherlands}{}{}
 
 \section{Education}
-\cventry{2011--now}{PhD}{Delft University of Technology}{the Netherlands}{}
+\cventry{2011--2016}{PhD}{Delft University of Technology}{the Netherlands}{}
 {
   Title: \emph{Higher-dimensional modelling of geographic information}
 }
@@ -64,201 +49,15 @@ I like theoretical work, but I strongly believe in implementing my ideas in actu
   Minor in Software Engineering
 }
 
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \section{Research Interests}
-% % TODO : 3D focus?
-% \cvline{}{ I am particularly interested in combining the fields of GIS and computational geometry. Put simply, I often try to solve geographical problems by first decomposing the world into triangles/tetrahedra or into another tessellation such as the Voronoi diagram. My work involves developing topological data structures to store these tessellations, and designing algorithms to analyse and extract information from the datasets. I strongly believe in implementing my research ideas, all the code of my projects is freely available under open-source licences.
-% \newline{}
-% I am currently working, among others, on the storage and the analysis of massive TINs, the validation and the automatic repair of polygons and polyhedra as found in GIS, the higher-dimensional modelling of geographical information (ie 4D+), and the smart simplification of LiDAR datasets.}
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \section{Research grants \& consultancy}
-% \cvline{2015}{AMS Stimulus project ``Hidden Amsterdam'' (\euro50,000)}
-% \cvline{2015}{STW Maps4Society Project ``3D4EM: Design and implementation of a 3D GII for integrated 3D environmental modelling'' (project 13740) (\euro478,562)}
-% \cvline{2013}{Generating good depth contours for large datasets (Rijkswaterstaat, \euro40k)}
-% \cvline{2012}{STW Open Technology Project ``Simplification of digital terrain models using feature-based three-dimensional methods'' (project 12217) (\euro215,584)}
-% \cvline{2012}{Investigation of contouring options for the rivers of the Netherlands (Rijkswaterstaat, \euro30k)}
-% \cvline{2012}{Different contracts related to the validation and automatic repair of the BGT dataset (Geonovum, \euro10k)}
-% \cvline{2011}{Universiti Teknologi Malaysia grant for project ``Simultaneous scale management in spatial models represented in different level of detail using dual half-edge data structure''  (200,000MYR)}
-% \cvline{2010}{Implementation of a 3D geometric validator with CGAL (Safe Software inc., \euro10k)}
-% \cvline{2008}{Generation of bathymetric contours: Investigation of the current problems and proposition of solutions (Atlis b.v., \euro14k)}
-% \cvline{2001}{Scholarship for PhD studies from the Hong Kong Polytechnic University  (576,000\$HK)}
-% \cvline{2001}{Postgraduate scholarship from the \emph{Fonds québécois de la recherche sur la nature et les technologies}  (30,000\$CND)}
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \section{Research awards}
-% \cvline{2012}{Best paper/presentation at the 4th Open Source GIS Conference (Nottingham, UK)}
-% \cvline{2011}{Best paper in the ISPRS journal in 2011, and thus nominated for the U.V. Helava Award}
-% \cvline{2001}{Award for the Highest Achieving Student in Geomatics Engineering at the Université Laval (year 2001), from the Association of the Land Surveyors of Quebec}
-% \cvline{2000 \& 2001}{Student Research Award from the Natural Sciences and Engineering Research Council of Canada (two years in a row)}
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% TODO : put own PhD thesis? it's like 9 years ago...
-% \section{PhD thesis}
-% \cvline{Title}{Modelling three-dimensional fields in geoscience with the Voronoi diagram and its dual}
-% \cvline{Supervisor}{Professor Christopher M. Gold}
-% \cvline{Description}
-% {
-% For the modelling of 3D data in oceanography, geology, and meteorology, I proposed using the 3D Voronoi diagram and the Delaunay tetrahedralization as an alternative to using grids. 
-% I built a prototype (in Delphi language) to construct, manipulate, analyse and visualise the Voronoi diagram. 
-% I also developed a new data structure to store this kind of information. More information is available at \url{3d.bk.tudelft.nl/hledoux/phdthesis}
-% }
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \section{PhD thesis supervised}
-% \cvline{2015--now}{\textbf{Du Xin}, Quality control of 3D city models}
-% \cvline{2015--now}{\textbf{Kavisha}, Storage and dissemination of massive 3D city models}
-% \cvline{2013--now}{\textbf{Ravi Peters}, Feature-aware DSM analysis and generalisation based on the 3D medial axis transform}
-% \cvline{2012--now}{\textbf{Filip Biljecki}, The concept of level of detail in 3D city modelling}
-% \cvline{2011--now}{\textbf{Ken Arroyo Ohori}, Higher-dimensional modelling of geographic information}
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \section{MSc theses supervised}
-% \cvline{ongoing}{\textbf{Tom Broersen}, \emph{Automatic identification of water courses from AHN3}}
-% \cvline{}{\textbf{Erik Heeres}, \emph{Creating an automatic, robust and scalable workflow for the creation of the 3D BAG}}
-% \cvline{}{\textbf{Kees Jonker}, \emph{Automatic generation of raster-based height data for the netherlands based on the AHN2 data set}}
-% \cvline{2015}{\textbf{Damien Mulder}, \emph{Automatic repair of geometrically invalid 3D City Building models using a voxel-based repair method}}
-% \cvline{}{\textbf{Maarten Pronk}, \emph{Storing massive TINs in a DBMS: A comparison and a prototype implementation of the multistar approach}}
-% \cvline{2013}{\textbf{Sjors Donkers}, \emph{Automatic generation of CityGML LoD3 building models from IFC models}}
-% \cvline{2012}{\textbf{Ravi Peters}, \emph{A Voronoi- and surface-based approach for the automatic generation of depth-contours for hydrographic charts }}
-% \cvline{}{\textbf{Simeon Nedkov}, \emph{Knowledge-based optimisation of three-dimensional city models for car navigation devices}}
-% \cvline{}{\textbf{Prajna Bhattacharya}, \emph{Quality assessment  and  object matching of OpenStreetMap in combination with  the Dutch topographic map TOP10NL  }}
-% \cvline{}{\textbf{Tom Commandeur}, \emph{Footprint decomposition combined with point cloud segmentation for producing valid 3D models}}
-% \cvline{2010}{\textbf{Ken Arroyo Ohori}, \emph{Validation and Automatic Repair of Planar Partitions using a Constrained Triangulation}}
-% \cvline{}{\textbf{Filip Biljecki}, \emph{Automatic segmentation and classification of movement trajectories for transportation modes}}
-% \cvline{2009}{\textbf{Tom van der Putte}, \emph{Using the discrete 3D Voronoi diagram for the modelling of 3D continuous information in geosciences}}
-
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \section{Lecturing}
-% \cvline{}{\textbf{I am/was the main responsible lecturer for the following courses at TU Delft:}}
-% \cvline{2011--2015}{Introduction to geographical information systems \& cartography (GEO1002)}
-% \cvline{2007--2011}{Geographical information management and application, basis applications (GIMA Module 2)}
-% \cvline{2009--2010}{Final project of the minor 3D Virtual Earth (BK7070)}
-% \cvline{2007--2010}{Principles of GIS (GM1050)}
-% \cvline{2007--2010}{Introduction to GIS (GM1041)}
-% \cvline{2008--2009}{Web-based 3D visualisation (IN3051TU)}
-
-% \cvline{}{\textbf{I have given lectures in the following courses at TU Delft:}}
-% \cvline{2014}{Geo datasets and quality (GEO1008)}
-% \cvline{2009--2010}{Spatial tools in water resources management (CT5401)}
-% \cvline{2007}{Digital terrain modelling (AE4-E05)}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \section{University duties}
-% \cvline{2015--now}{Coordinator of the MSc Geomatics graducation thesis (GEO2010 + GEO2020)}
-% \cvline{2011--2012}{Member of the OdC of OTB}
-% \cvline{2007--2012}{Member of the MSc Geomatics education committee}
-% \cvline{2010--2012}{Member of the MSc Geomatics intake committee}
-% \cvline{2009--2010}{Coordinator of the minor `3D Virtual Earth' at TU Delft}
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \section{Conferences organised}
-% \cvline{2008}{International Workshop on Computational GeoInformatics (Perugia, Italy)}
-% \cvline{2005}{4th ISPRS Dynamic and Multidimensional GIS (Pontypridd, Wales, UK)}
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \section{PhD committees}
-% \cvline{2016}{Sylvie Soudarissanane. \emph{The geometry of terrestrial laser scanning---Identification of errors, modeling and mitigation of scanning geometry.} Delft, the Netherlands (2016/01/05)}
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \section{Invited presentations}
-% \cvline{2015}{Presentation \emph{TU Delft 3D geoinformation \& FOSS} at the OSGeo.nl dag on 2013/11/25 (Den Bosch, the Netherlands)}
-% \cvline{2014}{`3D BGT dag' in Amersfoort, the Netherlands on June 19th 2014}
-% \cvline{2013}{Presentation \emph{Validation and automatic repair of two- and three-dimensional GIS datasets} at the OSGeo.nl dag on 2013--11--13 (Delft, the Netherlands)}
-% \cvline{2011--2012}{Several presentations about 3D validation of geometries during the `3D Pilot' meetings held in different cities in the Netherlands}
-% \cvline{2011}{Invited speaker for the course `100\% CityGML' on March 27th 2011 at Delft, the Netherlands. I gave two presentations: \emph{CityGML LOD1/LOD2 extrusion: Constructing topologically consistent models}, and \emph{CityGML---Geometric validation}}
-% \cvline{2010}{Workshop 3D-Stadtmodelle. Presentation: \emph{Overview of 3D GIS activities in the Netherlands}. November 9 2010, Bonn, Germany}
-% \cvline{2009}{3D-GIS Swedish Conference. Presentation \emph{3D Validation of CityGML}. March 10--11 2009, Stockholm, Sweden}
-% \cvline{2009}{NCG Seminar on Management of massive point cloud data: wet and dry. Presentation: \emph{Storage and analysis of massive TINs in a DBMS}, De Meern, the Netherlands}
-% \cvline{2008}{Workshop on Heterogeneous Data Access and Use for Geospatial User Communities. \emph{Representing Continuous Phenomena with Standards}.  December 4--5 2008, at the Vrije Universiteit, Amsterdam}
-% \cvline{2006}{Dagstuhl seminar (where scientific experts in computer science meet) on Spatial Data: mining, processing and communicating}
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% TODO : software FOSS section to fill out
-% \section{Contributions to the free and open-source software community}
-% \cvline{}{\textbf{Although not standard, a significant part of my work involves designing and developing software libraries. I also maintain these.}}
-% \cvline{2012}{Release of \texttt{pprepair} and \texttt{prepair}, two libraries for the automatic repair of GIS datasets. Used by houndreds of people; the American Red Cross uses it, among others, to prepare their datasets for the maps they distribute.} 
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \section{International activities}
-% \cvline{2014--2015}{Leader of `Geometry Validation Experiment' of the OGC Quality Interoperability Experiment for CityGML} 
-% \cvline{2014}{Invited to write a chapter on `Representations, Fields' in the \emph{International Encyclopedia of Geography} published by the Association of American Geographers. To be published in 2016.}
-% \cvline{2012}{Reviewer for proposals submitted to the `Israel Science Foundation'}
-% \cvline{2010}{Reviewer for the Global Exposure Database grants}
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \section{Membership of Editorial Boards}
-% \cvlistitem{International Journal of 3-D Information Modeling (IJ3DIM)}
-% \cvlistitem{Revue Internationale de Géomatique}
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \section{Reviewer for journals}
-% \cvline{}{\textbf{I regularly make reviews for the following journals:}}
-% \cvlistitem{International Journal of Geographical Information Science (IJGIS)}
-% \cvlistitem{Computers, Environment and Urban Systems (CEUS)}
-% \cvlistitem{Computers \& Geosciences}
-% \cvlistitem{Computational Geometry: Theory and Applications}
-% \cvlistitem{ISPRS International Journal of Geo-Information (IJGI)}
-% \cvlistitem{ISPRS Journal of Photogrammetry and Remote Sensing}
-% \cvlistitem{Computer-Aided Civil and Infrastructure Engineering}
-% \cvlistitem{Earth System Science Data (ESSD)}
-% \cvlistitem{The Cartographic Journal}
-% \cvlistitem{Cartography and Geographic Information Science}
-% \cvlistitem{Survey Review}
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \section{Membership of Programme Committees:}
-% \cvline{2016}{XXIII ISPRS Congress: WG IV/7---3D Indoor Modelling and Navigation + Multi-dimensional modelling}
-% \cvline{2015}{3rd Eurographics Workshop on Urban Data Modelling and Visualisation (UDMV). Delft, the Netherlands.}
-% \cvline{}{3D Geoinfo 2015 Conference (Kuala Lumpur, Malaysia)}
-% \cvline{}{ISPRS WG II/2 Workshop on nD GIS (Kuala Lumpur, Malysia)}
-% \cvline{2014}{8th International 3D GeoInfo Conference (Dubai)}
-% \cvline{}{1st ISPRS International Conference on Geospatial Information Research (Teheran, Iran)}
-% \cvline{2013}{7th International 3D GeoInfo Conference (Istanbul, Turkey)}
-% \cvline{}{5th International Workshop on Indoor Spatial Awareness (Orlando, FL, USA)}
-% \cvline{2012}{9th International Symposium on Voronoi Diagrams in Science and Engineering (Rutgers University, NY, USA)}
-% \cvline{}{6th International 3D GeoInfo Conference (Quebec City, Canada)}
-% \cvline{}{International Workshop on Geoinformation Advances (Johor Bahru, Malaysia)}
-% \cvline{2011}{3rd ACM SIGSPATIAL International Workshop on Indoor Spatial Awareness (Chicago, USA)}
-% \cvline{}{8th International Conference on Geo-information for Disaster Management (GI4DM) (Enschede, the Netherlands)}
-% \cvline{}{13th CUPUM Conference Computers in Urban Planning and Urban Management (Utrecht, the Netherlands)}
-% \cvline{}{28th Urban Data Management Symposium (Delft, the Netherlands)}
-% \cvline{}{8th International Symposium on Voronoi Diagrams in Science and Engineering (Qingdao, China)}
-% \cvline{2010}{GISRUK 2010 (University College London, UK)}
-% \cvline{}{7th International Symposium on Voronoi Diagrams in Science and Engineering (Quebec City, Canada)}
-% \cvline{}{5th International 3D GeoInfo Conference (Berlin, Germany)}
-% \cvline{}{2nd ACM SIGSPATIAL International Workshop on Indoor Spatial Awareness (San Jose, USA)}
-% \cvline{2009}{International Workshop on Computational GeoInformatics (Yongin, Korea)}
-% \cvline{}{First Open Source GIS UK Conference (University of Nottingham, UK)}
-% \cvline{}{International Symposium on Voronoi Diagrams in Science and Engineering (Technical University of Denmark, Kongens Lyngby, Denmark)}
-% \cvline{}{4th International Workshop on 3D Geo-Information (Gent, Belgium)}
-% \cvline{2008}{3rd International Workshop on 3D Geo-Information (Seoul, South Korea)}
-% \cvline{2007}{2nd International Workshop on 3D Geo-Information (Delft, the Netherlands)}
-% \cvline{}{4th ISVD International Symposium on Voronoi Diagrams in Science and Engineering  (Cardiff, UK)}
-% \cvline{}{26th Urban Data Management Symposium (Stuttgart, Germany)}
-
 \section{Peer-reviewed publications}
 
 \cvline{}{\textbf{Note}: PDFs are available at \url{https://3d.bk.tudelft.nl/ken/en/papers/}}
 
-\cvline{2016}{\textbf{Voxelization algorithms for geospatial applications}. Pirouz Nourian, Romulo Gon\c{c}alves, Sisi Zlatanova, Ken Arroyo Ohori and Anh Vu Vo. \emph{MethodsX}, 2016.}
+\cvline{2016}{\textbf{Solving the horizontal conflation problem with a constrained Delaunay triangulation}. Hugo Ledoux and Ken Arroyo Ohori. \emph{Journal of Geographical Systems}, 2016.}
+\cvline{}{\textbf{Defining simple nD operations based on prismatic nD objects}. Ken Arroyo Ohori, Hugo Ledoux and Jantien Stoter. \emph{Joint 3D Athens Conference 2016}, ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences, ISPRS, Athens, Greece, October 2016.}
+\cvline{}{\textbf{What is a valid nD GIS object? extending the validity notions embedded in the geoinformation standards for 2D and 3D}. Ken Arroyo Ohori, Hugo Ledoux and Jantien Stoter. \emph{GeoAdvances 2016: ISPRS Workshop on Multi-dimensional \& Multi-scale Spatial Data Modeling}, ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences, ISPRS, Istanbul, Turkey, October 2016.}
+\cvline{}{\textbf{Population estimation using a 3D city model: a multi-scale country-wide study in the Netherlands}. Filip Biljecki, Ken Arroyo Ohori, Hugo Ledoux, Ravi Peters and Jantien Stoter. \emph{PLOS ONE} 11(6), June 2016.}
+\cvline{}{\textbf{Voxelization algorithms for geospatial applications}. Pirouz Nourian, Romulo Gon\c{c}alves, Sisi Zlatanova, Ken Arroyo Ohori and Anh Vu Vo. \emph{MethodsX} 3, January 2016.}
 \cvline{2015}{\textbf{Automatically enhancing CityGML LOD2 models with a corresponding indoor geometry}. Roeland Boeters, Ken Arroyo Ohori, Filip Biljecki and Sisi Zlatanova. \emph{International Journal of Geographical Information Science} 29(12), December 2015, pp. 2248–2268.}
 \cvline{}{\textbf{Automatic semantic-preserving conversion between OBJ and CityGML}. Filip Biljecki and Ken Arroyo Ohori. In F. Biljecki and V. Tourre (eds.), \emph{Eurographics Workshop on Urban Data Modelling and Visualisation}, Eurographics Association, Delft, The Netherlands, November 2015, pp. 25--30.}
 \cvline{}{\textbf{Storing a 3D city model, its levels of detail and the correspondences between objects as a 4D combinatorial map}. Ken Arroyo Ohori, Hugo Ledoux and Jantien Stoter. In Alias Abdul Rahman, Umit Isikdag and Francesc Ant\'on Castro (eds.), Joint International Geoinformation Conference 2015, 28--30 October 2015, Kuala Lumpur, Malaysia, ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences II--2/W2, ISPRS, Kuala Lumpur, Malaysia, October 2015, pp. 1--8.}
@@ -328,22 +127,31 @@ I like theoretical work, but I strongly believe in implementing my ideas in actu
 
 \section{Open source software}
 
+\cvline{2015--now}{\textbf{imbiber}, create nicely formatted HTML from BibTeX files directly from Jekyll.}
 \cvline{2014--now}{\textbf{lcc-tools}, tools to construct and manipulate higher-dimensional linear cell complexes.}
 \cvline{2010--now}{\textbf{pprepair}, (planar partition repair) ensures that a set of polygons form a valid planar partition, made of valid polygons and having no gaps or overlaps.}
 \cvline{2010--now}{\textbf{prepair}, (polygon repair) takes a possibly invalid polygon, gives it a consistent interpretation and returns a valid polygon according to the OGC Simple Features and ISO 19107 rules.}
 
+\section{Editorial board in journals}
+\cvline{}{\textbf{International Journal of 3D Information Modeling}}
+
 \section{Scientific committee member in conferences}
 
+\cvline{2016}{\textbf{4th Eurographics Workshop on Urban Data Modelling and Visualisation}. Li\`ege, Belgium.}
+\cvline{}{\textbf{11th 3D Geoinfo Conference}. Athens, Greece.}
+\cvline{}{\textbf{2nd International Conference in 3D Indoor Modelling and Navigation}. Athens, Greece.}
 \cvline{2015}{\textbf{WITCOM 2015, Conferences and Workshops in Telematics and Computing}. Mexico City, Mexico.}
 \cvline{}{\textbf{3rd Eurographics Workshop on Urban Data Modelling and Visualisation}. Delft, the Netherlands.}
 \cvline{2014}{\textbf{1st International Congress on Telematics, Computing and Communications}. Mexico City, Mexico.}
 
 \section{Reviews in journals}
 
-\cvline{}{\textbf{International Journal of Geographical Information Science} (2015)}
+\cvline{}{\textbf{ISPRS International Journal of Geo-Information} (2016)}
+\cvline{}{\textbf{Journal of Geographical Systems} (2016)}
+\cvline{}{\textbf{International Journal of Geographical Information Science} (2015, 2016)}
 \cvline{}{\textbf{International Journal of 3D Information Modeling} (2014)}
-\cvline{}{\textbf{Transactions in GIS} (2013, 2014, 2015)}
-\cvline{}{\textbf{Computers \& Geosciences} (2012, 2013, 2014, 2015)}
+\cvline{}{\textbf{Transactions in GIS} (2013, 2014, 2015, 2016)}
+\cvline{}{\textbf{Computers \& Geosciences} (2012, 2013, 2014, 2015, 2016)}
 
 \section{Skills}
 

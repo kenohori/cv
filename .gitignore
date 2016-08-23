@@ -1,1 +1,7 @@
 .DS_Store
+/cv.aux
+/cv.fdb_latexmk
+/cv.fls
+/cv.log
+/cv.out
+/cv.synctex.gz
